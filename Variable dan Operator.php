@@ -12,7 +12,6 @@ $hasil_tambah = $a + $b;
 $hasil_kurang = $a - $b;
 $hasil_kali = $a * $b;
 $hasil_bagi = $a / $b;
-$hasil_modulus = $a % $b;
 
 // Operator perbandingan
 $lebih_besar = $a > $b;
@@ -31,4 +30,3 @@ echo "Umur: " . $umur . " tahun<br>";
 echo "Tinggi: " . $tinggi . " cm<br>";
 echo "Mahasiswa: " . ($mahasiswa ? "Ya" : "Tidak") . "<br>";
 echo "Hasil tambah: " . $hasil_tambah . "<br>";
-echo "Hasil logika AND: " . ($dan ? "True" : "False") . "<br>";
